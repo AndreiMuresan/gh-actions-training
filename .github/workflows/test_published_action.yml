@@ -1,0 +1,11 @@
+name: Test_Published_Actions
+on: [workflow_dispatch]
+
+jobs:
+  test-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        uses: AndreiMuresan/hello-world-docker-action@v1
+        with:
+          who-to-greet: 'everyone'

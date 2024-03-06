@@ -70,4 +70,5 @@ Find common terminology for reference [here](./CheatSheet.md)
 
 ## Testing
 Commit to start a new workflow run
+Another test, this time with [skip ci] set
 
